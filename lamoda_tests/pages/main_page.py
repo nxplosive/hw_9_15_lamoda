@@ -48,7 +48,8 @@ class MainPage:
         with allure.step("Выбираем размер"):
             browser.element('[class="_root_1widv_2 _rootIsPremium_1widv_39 ui-product-page-sizes-chooser"]').click()
             browser.element(
-                '[class*="_colspan_1widv_150 ui-product-page-sizes-chooser-item_enabled ui-product-page-sizes-chooser-item"]').click()
+                '[class*="_colspan_1widv_150 ui-product-page-sizes-chooser-item_enabled ui-product-page-sizes-chooser-item"]'
+            ).click()
         with allure.step("Нажимаем 'Добавить в корзину'"):
             browser.element('[class="_addToCart_2z3at_18 _addToCartSticky_2z3at_171"]').click()
         with allure.step("Счётчик корзины увеличился"):
@@ -56,12 +57,12 @@ class MainPage:
 
     def open_basket(self):
         with allure.step("Нажимаем 'Корзина'"):
-            self.basket.double_click()
+            self.basket.click()
 
     def check_cart(self, card_name, brand_name, item_name):
         self.open_basket()
         with allure.step(f"В корзине отображается товар с наименованием {card_name} {brand_name}"):
-            browser.all('[class="_infoPrice_1de25_21"]').should(have.texts(item_name))
+            browser.all('[class="_box_1de25_14"]').should(have.texts(item_name))
 
     def remove_from_cart(self):
         self.open_basket()
