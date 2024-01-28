@@ -1,6 +1,5 @@
 from lamoda_tests.data.data_cards import card
 from lamoda_tests.pages.main_page import MainPage
-import pytest
 
 
 def test_search_by_name():

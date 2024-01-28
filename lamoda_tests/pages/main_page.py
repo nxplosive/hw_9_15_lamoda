@@ -56,17 +56,17 @@ class MainPage:
 
     def open_basket(self):
         with allure.step("Нажимаем 'Корзина'"):
-            self.basket.click()
+            self.basket.double_click()
 
     def check_cart(self, card_name, brand_name, item_name):
         self.open_basket()
         with allure.step(f"В корзине отображается товар с наименованием {card_name} {brand_name}"):
-            browser.all('[class="_infoPrice_n645e_21"]').should(have.texts(item_name))
+            browser.all('[class="_infoPrice_1de25_21"]').should(have.texts(item_name))
 
     def remove_from_cart(self):
         self.open_basket()
         with allure.step("Удаляем товар"):
-            browser.element('[class="_product_n645e_8"]').hover()
+            browser.element('[class="_root_1u8uz_2 ui-checkout-cart__item"]').hover()
             browser.element('[class="_root_1mejd_2 _action_120f4_8"]').click()
         with allure.step(f"Отображается текст {Texts.empty_cart}"):
             browser.element('[class="_title_1wc5j_7"]').should(have.text(Texts.empty_cart))
