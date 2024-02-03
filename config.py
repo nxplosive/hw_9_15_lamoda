@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     window_height: str = '1080'
     base_url: str = 'https://www.lamoda.ru'
     remote: bool = False
-    page_load_strategy: str = 'eager'
+    page_load_strategy: str = 'normal'
     selenoid_capabilities: dict = {
         "browserName": "chrome",
         "browserVersion": "100.0",
