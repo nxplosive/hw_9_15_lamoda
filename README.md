@@ -2,20 +2,21 @@
 
 ---
 
-## Список реализованных автотестов
+### Список реализованных автотестов
 
 - [x] Добавление товара в корзину  
 - [x] Удаление товара из корзины
-- [x] Поиск товара по названию  
-- [x] Поиск товара по артикулу  
+- [x] Поиск товара по названию модели 
+- [x] Проверка товара на соответствие бренда
+- [x] Проверка товара на соответствие стоимости
 - [x] Поиск несуществующего товара  
 
 ---
 
-## Структура проекта 
+### Структура проекта 
 Проект реализован с использованием 
 
-### Python, Selene, Pytest, Jenkins, Selenoid, Allure-report, Telegram
+#### Python, Selene, Pytest, Jenkins, Selenoid, Allure-report, Telegram
 <p align="left">
 <img align="center" src="logo/python.svg" width="50"/>
 <img align="center"  src="logo/selene.png" width="50"/>
@@ -28,9 +29,9 @@
 
 ---
 
-## Запуск автотестов выполняется на сервере Jenkins
+### Запуск автотестов выполняется на сервере Jenkins
 
-### Как запустить
+#### Как запустить
 
 ###### Удаленно
 
@@ -73,7 +74,7 @@ allure serve tests\allure-results
 
 ---
 
-## Результат запуска сборки в отчёте Allure
+### Результат запуска сборки в отчёте Allure
 
 Отчёт о прохождении будет сгенерирован в allure-report с подробными шагами, скриншотами, видео.
 Также, при необходимости можно подключить уведомления в Telegram, skype, discord, slack  
@@ -82,15 +83,15 @@ allure serve tests\allure-results
 
 ---
 
-## Примеры выполнения тестов
+### Примеры выполнения тестов
 
 <img src="readme_files/test_add_to_cart.gif" width="700"/>  
 <img src="readme_files/test_remove_from_cart.gif" width="700"/>  
 
 ---
 
-## Настроено автоматическое оповещение о результатах в Telegram
+### Настроено автоматическое оповещение о результатах в Telegram
 
-<img align="center" src="readme_files/tg_screen.png" width="400" height="400"/>.
+<img align="center" src="readme_files/tg_screen.png" width="300" height="300"/>.
 
 
