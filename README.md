@@ -39,7 +39,7 @@
 3. Дождаться завершения 
 4. Перейти в allure отчет
 
-<img src="readme_files/jenkins_control.png" width="400" height="200"/>  
+<img src="readme_files/jenkins_control.png" width="700" height="300"/>  
 
 ###### Локально
 
@@ -78,15 +78,14 @@ allure serve tests\allure-results
 Отчёт о прохождении будет сгенерирован в allure-report с подробными шагами, скриншотами, видео.
 Также, при необходимости можно подключить уведомления в Telegram, skype, discord, slack  
 
-<img align="left" src="readme_files/allure_report.png" width="600" height="300"/>  
+<img src="readme_files/allure_report.png" width="700" height="300"/>  
 
-___
+---
 
 ## Примеры выполнения тестов
 
-
-<img src="readme_files/test_add_to_cart.gif" width="600"/>  
-<img src="readme_files/test_remove_from_cart.gif" width="600"/>  
+<img src="readme_files/test_add_to_cart.gif" width="700"/>  
+<img src="readme_files/test_remove_from_cart.gif" width="700"/>  
 
 ---
 
