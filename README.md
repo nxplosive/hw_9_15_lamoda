@@ -1,4 +1,6 @@
-<h1 align="center">Проект по тестированию интернет-магазина <a href="https://www.lamoda.ru/"> Lamoda </a> </h1>
+<h1 align="center">Проект по тестированию интернет-магазина
+<p align="center">
+<a href="https://www.lamoda.ru/"> <img src="logo/lamoda_logo.svg.png" width="250" height="50"> </a> </h1>
 
 ---
 
@@ -16,16 +18,9 @@
 ### Структура проекта 
 Проект реализован с использованием 
 
-#### Python, Selene, Pytest, Jenkins, Selenoid, Allure-report, Telegram
-<p align="left">
-<img align="center" src="logo/python.svg" width="50"/>
-<img align="center"  src="logo/selene.png" width="50"/>
-<img align="center"  src="logo/pytest-original.svg" width="50"/>
-<img align="center"  src="logo/Jenkins.svg" width="50"/>
-<img align="center"  src="logo/Selenoid.svg" width="50"/>
-<img align="center"  src="logo/Allure_new.png" width="50"/>
-<img align="center"  src="logo/Telegram.svg" width="50"/>
-</p>
+|                             Python                              |                                 Pytest                                  |                                PyCharm                                 |                             Selene                              |                              Jenkins                              |                              Selenoid                               |                            Allure Report                             |                              Telegram                               |
+|:---------------------------------------------------------------:|:-----------------------------------------------------------------------:|:----------------------------------------------------------------------:|:---------------------------------------------------------------:|:-----------------------------------------------------------------:|:-------------------------------------------------------------------:|:--------------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| <img src="logo/python.svg" alt="Python" width="50" height="50"> | <img src="logo/pytest-original.svg" alt="Pytest" width="50" height="50"> | <img src="logo/PyCharm_Icon.svg" alt="Pycharm" width="50" height="50"> | <img src="logo/selene.png" alt="Selene" width="50" height="50"> | <img src="logo/jenkins.svg" alt="Jenkins" width="50" height="50"> | <img src="logo/selenoid.svg" alt="Selenoid" width="50" height="50"> |  <img src="logo/allure_new.png" alt="Allure" width="50" height="50"> | <img src="logo/telegram.svg" alt="Telegram" width="50" height="50"> |
 
 ---
 
@@ -91,7 +86,6 @@ allure serve tests\allure-results
 ---
 
 ### Настроено автоматическое оповещение о результатах в Telegram
-
-<img align="center" src="readme_files/tg_screen.png" width="300" height="300"/>.
-
+<p align="center">
+<img src="readme_files/tg_screen.png" width="300" height="300"/>
 
