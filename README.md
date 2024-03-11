@@ -1,4 +1,7 @@
 <h1 align="center">Проект по тестированию интернет-магазина
+
+---
+
 <p align="center">
 <a href="https://www.lamoda.ru/"> <img src="logo/Lamoda_logo.svg.png" width="250" height="50"> </a> </h1>
 
