@@ -1,12 +1,13 @@
-import pytest
 import os
+
+import pytest
+from dotenv import load_dotenv
 from selene import browser
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 from config import Settings
 from lamoda_tests.controls import attach
-from dotenv import load_dotenv
 
 
 @pytest.fixture(scope='session', autouse=True)
